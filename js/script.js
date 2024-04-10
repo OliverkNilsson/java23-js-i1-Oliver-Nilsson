@@ -65,6 +65,7 @@ function hold() {
   totalPtsLabel.innerText = `Total points: ${totalPts}`;
 
   if (totalPts >= 100) {
+    scoreboard.innerText = `You reached a 100 in ${totalRnds} rounds, now try and beat that!`;
     highScore = totalRnds;
     console.log(highScore);
     rndPts = 0;

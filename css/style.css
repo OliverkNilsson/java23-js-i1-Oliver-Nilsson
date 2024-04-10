@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   font-family: monospace;
   font-weight: bold;
   color: #f27100;
@@ -10,7 +10,13 @@ main {
   justify-content: center;
 }
 
+p {
+  font-size: 20px;
+}
+
 #leftSide {
+  display: flex;
+  flex-direction: column;
   margin: 25px;
   text-align: left;
 }

@@ -1,12 +1,25 @@
 body {
-  background-color: rgb(145, 145, 145);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  color: pink;
+  display: block;
+  background-color:rgb(255, 255, 255);
+  font-family: monospace;
+  font-weight: bold;
+  color: #f27100;
   text-align: center;
 }
+main {
+  display: flex;
+}
 
-div {
-  border: 2px solid black;
-  text-align: center;
+#leftSide {
+  margin: 25px;
+  text-align: left;
+}
+
+#rightSide {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  align-items: center;
+  width: 20rem;
+  gap: 1.5rem;
 }
